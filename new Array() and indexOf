@@ -32,7 +32,13 @@ console.log(fruits[0]);     // "Apple"
 ##### JavaScript, find missing number in array.
    ##### Solution
    
-let fruits = new Array('Apple', 'Banana');
+var a = [4],
+  count = 10;
+var missing = new Array();
 
-console.log(fruits.length); // 2
-console.log(fruits[0]);     // "Apple"
+for (var i = 0; i <= count; i++) {
+  if (a.indexOf(i) == -1) {
+    missing.push(i);
+  }
+}
+console.log(missing); // to check the result.
