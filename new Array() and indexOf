@@ -1,0 +1,38 @@
+##### Before the challenge, I want to discuss new Array() and indexOf.
+
+###### The Array() constructor is used to create Array objects.
+    ### Syntax
+
+// literal constructor
+[element0, element1, ..., elementN]
+
+// construct from elements
+new Array(element0, element1, ..., elementN)
+
+// construct from array length
+new Array(arrayLength)
+
+    #### Examples
+####### Arrays can be created using a constructor with a single number parameter
+
+let fruits = new Array(2);
+
+console.log(fruits.length); // 2
+console.log(fruits[0]);     // undefined
+
+##### Array constructor with multiple parameters
+####### If more than one argument is passed to the constructor, a new Array with the given elements is created.
+
+let fruits = new Array('Apple', 'Banana');
+
+console.log(fruits.length); // 2
+console.log(fruits[0]);     // "Apple"
+
+   #### Challenge
+##### JavaScript, find missing number in array.
+   ##### Solution
+   
+let fruits = new Array('Apple', 'Banana');
+
+console.log(fruits.length); // 2
+console.log(fruits[0]);     // "Apple"
